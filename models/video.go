@@ -1,9 +1,9 @@
 package models
 
 type Video struct {
-	title string
-	description string
-	likes int
-	dislikes int
-	comments []Comment
+	Title string
+	Description string
+	Likes int
+	Dislikes int
+	Comments []Comment
 }

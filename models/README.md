@@ -12,32 +12,32 @@ Check out the main [documentation](../README.md)
 
 # Channel
 - ## ChannelViewer
-    - likesGiven integer
-    - dislikesGiven integer
-    - comments integer
-    - channelName string
+    - LikesGiven `integer`
+    - DislikesGiven `integer`
+    - Comments `integer`
+    - ChannelName `string`
 
 <br>
 
 - ## ChannelCreator
-    - videos []Video, a list of model [Video](#video)
-    - subscribers integer
-    - channelName string
+    - Videos `[]Video`, a list of model [Video](#video)
+    - Subscribers `integer`
+    - ChannelName `string`
 
 <br>
 
 # Video
-- title string
-- description string
-- likes integer
-- dislikes integer
-- comments []Comment, a list of model [Comment](#comment)
+- Title `string`
+- Description `string`
+- Likes `integer`
+- Dislikes `integer`
+- Comments `[]Comment`, a list of model [Comment](#comment)
 
 <br>
 
 # Comment
-- author [ChannelViewer](#channelviewer)
-- message string
-- likes integer
-- dislikes integer
-- replies []Comment, a list of model [Comment](#comment)
+- Author [ChannelViewer](#channelviewer)
+- Message `string`
+- Likes `integer`
+- Dislikes `integer`
+- Replies `[]Comment`, a list of model [Comment](#comment)
